@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bloco1 {
+    height: 100%;
+    width: 22%;
+    text-align: center;
+    align-items: center;
+    background-color: #407076;
+}
+
+.bloco1 img {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 42%;
+    transform: translate(-50%, -50%);
+}
+
+.bloco1 nav {
+    position: relative;
+    top: 59%;
+}
+
+.bloco1 button {
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+    letter-spacing: 0.6px;
+}
+
+.bloco2 {
+    height: 100%;
+    width: 80%;
+    background-color: #F5F4F6;
+    padding: 50px;
+}
+
+.bloco2 div {
+    position: relative;
+    top: 32%;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "League Spartan";
+    src: url("./fonte/LeagueSpartan.woff");
+}
+
+.bloco2 #dados-pessoais h1 {
+    font-family: 'League Spartan';
+    font-size: 2.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+.bloco2 #dados-pessoais p {
+    font-family: 'League Spartan';
+    font-size: 1em;
+    padding-bottom: 50px;
+}
+
+.cor {
+    color: #416788;
+}
+
+.bloco2 #descricao, #conhecimentos, #objetivos {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #67616B;
+}
+
+.bloco2 #conhecimentos, #objetivos {
+    padding-left: 19px;
+}
+
+.bloco2 #descricao{
+    padding-bottom: 35px;
+}
+
+.bloco2 #redes-sociais a {
+    padding: 0 20px 0 0;
+}
+
+.bloco2 #redes-sociais img {
+    width: 48px;
+}
